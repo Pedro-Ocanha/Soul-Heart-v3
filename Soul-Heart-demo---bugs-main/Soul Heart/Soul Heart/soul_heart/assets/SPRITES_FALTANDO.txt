@@ -1,0 +1,106 @@
+SPRITES DO JOGO
+============================================================
+Cada item vira um arquivo PNG dentro da pasta assets/.
+  animado : assets/<nome>_0.png, <nome>_1.png, <nome>_2.png ...
+  unico   : assets/<nome>.png
+Desenhe virado pra DIREITA. Ajuste tamanho/posicao em SPRITE_AJUSTE no codigo.
+Encontrados: 0/98
+
+[FALTA] bispo/andar                  bispo andando
+[FALTA] bispo/atirar                 bispo prestes a atirar
+[FALTA] bispo/idle                   bispo parado
+[FALTA] bispo_branco/atirar          
+[FALTA] bispo_branco/atordoado       
+[FALTA] bispo_branco/aviso           
+[FALTA] bispo_branco/idle            
+[FALTA] bispo_branco/investida       
+[FALTA] bispo_preto/atirar           
+[FALTA] bispo_preto/atordoado        
+[FALTA] bispo_preto/aviso            
+[FALTA] bispo_preto/idle             
+[FALTA] bispo_preto/investida        
+[FALTA] cenario/arvore               arvore da sala 1 (base do sprite fica no chao)
+[FALTA] cenario/bloco_central        bloco do meio da sala 4
+[FALTA] cenario/fundo_sala1          fundo da sala 1 (800x600 ou mais largo: rola com a camera)
+[FALTA] cenario/fundo_sala10         
+[FALTA] cenario/fundo_sala2          fundo da sala 2
+[FALTA] cenario/fundo_sala3          fundo da sala 3 (800x600)
+[FALTA] cenario/fundo_sala4          fundo da sala 4 (800x600)
+[FALTA] cenario/fundo_sala4s         fundo da sala secreta (800x600; fica escuro, so o bau e iluminado)
+[FALTA] cenario/fundo_sala5          fundo da sala 5 (mini-boss)
+[FALTA] cenario/fundo_sala6          fundo da sala 6 (parkour)
+[FALTA] cenario/fundo_sala7          
+[FALTA] cenario/fundo_sala8          
+[FALTA] cenario/fundo_sala9          
+[FALTA] cenario/parede_labirinto     parede do labirinto da sala 4 (esticada no tamanho de cada parede)
+[FALTA] cenario/parede_secreta       parede secreta do labirinto (sala 4) - quebra com 1 golpe
+[FALTA] cenario/pedestal             pedestal do bau na sala secreta (80x26)
+[FALTA] cenario/pedra                tile de pedra 100x100 (chao e paredes). Varie: pedra_0, pedra_1, pedra_2...
+[FALTA] cenario/plataforma           plataforma fina (esticada no tamanho dela)
+[FALTA] efeitos/golpe_baixo          efeito do corte pra baixo
+[FALTA] efeitos/golpe_cima           efeito do corte pra cima
+[FALTA] efeitos/golpe_frente         EFEITO do corte da espada pra frente (esticado na hitbox do golpe)
+[FALTA] efeitos/parry                brilho do PARRY (toca 1 vez, ~0.4s, centralizado no ponto do impacto)
+[FALTA] efeitos/projetil             bolinha que o bispo atira (14x14)
+[FALTA] itens/bau_aberto             bau aberto
+[FALTA] itens/bau_fechado            bau fechado (40x30)
+[FALTA] itens/chave                  chave pequena
+[FALTA] itens/coracao                coracao que cura
+[FALTA] jogador/andar                andando (plataforma)
+[FALTA] jogador/ataque_baixo         golpe pra BAIXO no ar (S + Q) = o POGO
+[FALTA] jogador/ataque_cima          golpe pra CIMA (W + Q)
+[FALTA] jogador/ataque_frente        golpe de espada pra frente (dura 0.15s - os quadros se ajustam sozinhos)
+[FALTA] jogador/correr               correndo com SHIFT (plataforma)
+[FALTA] jogador/dano                 tomando dano / sendo empurrado
+[FALTA] jogador/idle                 parado (plataforma). Ultimo recurso de TODAS as animacoes do jogador
+[FALTA] jogador/parry                pose do jogador ao dar um PARRY (toca ~0.25s; se faltar usa ataque_frente)
+[FALTA] jogador/pulo                 SUBINDO no pulo (plataforma)
+[FALTA] jogador/queda                CAINDO (plataforma)
+[FALTA] jogador/td_andar_baixo       top-down: andando pra baixo
+[FALTA] jogador/td_andar_cima        top-down: andando pra cima
+[FALTA] jogador/td_andar_lado        top-down: andando pro lado
+[FALTA] jogador/td_ataque_baixo      top-down: golpe pra baixo
+[FALTA] jogador/td_ataque_cima       top-down: golpe pra cima
+[FALTA] jogador/td_ataque_lado       top-down: golpe pro lado
+[FALTA] jogador/td_idle_baixo        top-down: parado olhando pra baixo
+[FALTA] jogador/td_idle_cima         top-down: parado olhando pra cima
+[FALTA] jogador/td_idle_lado         top-down: parado olhando pro lado
+[FALTA] objetos/espinho              1 modulo de espinho (repete pela largura da area de espinhos)
+[FALTA] objetos/lamina               
+[FALTA] objetos/lamparina            lamparina do POGO (30x30)
+[FALTA] objetos/luz_guia             luzinha da trilha de luzes da sala secreta (30x30)
+[FALTA] objetos/pedra                pedras da sala 3 (esticado na hitbox)
+[FALTA] peao/andar                   peao girando em volta do jogador
+[FALTA] peao/aviso                   peao se preparando pra atacar (pisca)
+[FALTA] peao/descanso                peao cansado depois da investida
+[FALTA] peao/dormindo                
+[FALTA] peao/idle                    peao parado (ultimo recurso do peao)
+[FALTA] peao/investida               peao investindo
+[FALTA] portas/escada_baixo_normal   escada/porta de baixo, pra voltar (90x30)
+[FALTA] portas/escada_baixo_trancada escada de baixo trancada
+[FALTA] portas/escada_normal         escada/porta do topo (90x30)
+[FALTA] portas/escada_trancada       escada trancada
+[FALTA] portas/fim_normal            
+[FALTA] portas/fim_trancada          
+[FALTA] portas/grande_normal         porta grande (30x150)
+[FALTA] portas/grande_trancada       porta grande trancada
+[FALTA] portas/porta_normal          porta comum (90x150)
+[FALTA] portas/porta_trancada        porta comum trancada
+[FALTA] portas/secreta_normal        porta secreta da sala 4 (60x110, aparece quando a parede rachada quebra)
+[FALTA] portas/secreta_trancada      
+[FALTA] rastejante/andar             bichinho andando
+[FALTA] rastejante/idle              bichinho do chao (sala 2)
+[FALTA] torre_boss/andar             torre patrulhando
+[FALTA] torre_boss/atordoado         torre atordoada na parede (hora de bater)
+[FALTA] torre_boss/aviso             torre se preparando pra investir
+[FALTA] torre_boss/idle              torre (mini-boss) parada/dormindo
+[FALTA] torre_boss/investida         torre investindo
+[FALTA] torre_boss/salto             torre no ar
+[FALTA] torre_boss/salto_aviso       torre agachando pro salto
+[FALTA] torre_orbital/idle           pecas de torre que giram na sala 4
+[FALTA] ui/barra_vida_cheia          parte cheia da barra de vida (esticada e recortada pela vida atual)
+[FALTA] ui/barra_vida_fundo          fundo da barra de vida (esticado; largura = vida maxima x 12px, altura 20)
+[FALTA] ui/game_over_fundo           fundo da tela de game over (800x600)
+[FALTA] ui/menu_fundo                fundo do menu (800x600)
+[FALTA] voador/idle                  inseto voador (sala 6)
+[FALTA] voador/voar                  inseto batendo asa

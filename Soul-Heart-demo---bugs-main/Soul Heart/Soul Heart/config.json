@@ -1,0 +1,12 @@
+{
+  "volume": {
+    "musica": 0.7,
+    "efeitos": 0.8
+  },
+  "controles": {
+    "ataque": 113,
+    "pulo": 32,
+    "interagir": 101,
+    "correr": 1073742049
+  }
+}

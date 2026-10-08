@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soul Heart Demo</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="shortcut icon" href="sprites/pixilart-drawing__15___1_-removebg-preview.png" type="image/x-icon">
+
+</head>
+<body>
+    <header class="cabecalho">
+   <section class="links">
+    <a href="#sobre">Sobre</a>
+    <a href="#info">Informações do jogo</a>
+    <a href="#demo">Demo</a>
+    <a href="#contato">Contato</a>
+
+  </section>
+
+    </header>
+    <section id="sobre" class="title">
+        <h1 class="color">Soul Heart </h1>
+    </section>
+
+    <section id="info" class="info">
+        <h2>Você controla um cavaleiro onde durante seu retorno ao reino depois de uma longa missão você acaba se perdendo em uma floresta durante uma tempestedade,e por acaso o unico lugar que você encontra para se abrigar é um castelo "abandonado" aonde você percebe que a algo por trás desse castelo muito maior que sua compreensão e você deve sobreviver e lutar até o fim e não perder a DETERMINAÇÃO em seu coração bravo guerreiro...</h2>
+
+    </section>
+
+    <section id="demo">
+        <a href="demo.html"class="demo" > 
+            <span class="titulo">DEMO</span>
+            <span class="subtitulo">Acesso a Demo</span>
+        </a>
+    </section>
+
+    <section id="contato">
+        <h2>Contato para atualizações:<br> Email@: pedro.ocanha201024@gmail.com</h2>
+        <h2>Pretende ter a demo full ainda esse ano</h2>
+    </section>
+
+<footer class="footer">Jogo<div class="color">Soul Heart®</div> em desenvolvimento! </footer>
+    <div class="particulas">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        
+    </div>
+<script>
+  const musica = new Audio('/Sound/Som.mp3');
+  musica.loop = true;
+
+  document.body.addEventListener('click', () => {
+    musica.play();
+  }, { once: true }); 
+</script>
+<script>
+  const somHover = new Audio('hover.mp3');
+
+  document.querySelectorAll('.links a').forEach(link => {
+    link.addEventListener('mouseenter', () => {
+      somHover.currentTime = 0; 
+      somHover.play();
+    });
+  });
+</script>
+
+</body>
+</html>
